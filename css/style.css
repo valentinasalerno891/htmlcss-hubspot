@@ -21,8 +21,21 @@ body {
 }
 
 .fixed-bar {
+    background-color: blue;
+}
+
+.menu-left {
     height: 80px;
-    background-color: #f4f9fd;
+    padding: 10px 0;
+    line-height: 60px;
+}
+
+i, span {
+    padding: 2px;
+}
+
+.vr {
+    padding: 0 10px;
 }
 
 /* HEADER */
