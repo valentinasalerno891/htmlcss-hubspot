@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fixed-bar {
+    height: 80px;
+    background-color: #f4f9fd;
+}
+
+/* HEADER */
+.header-top {
+    height: 80px;
+    background-color: white;
+}
+
+.banner {
+    height: 400px;
+    background-color: #fff2ee;
+}
+
+/* HR */
+
+/* SECTIONS */
+
+.one {
+    height: 800px;
+    background-color: #f4f9fd;
+}
+
+.two {
+    height: 400px;
+    background-color: #52c0d6;
+}
+
+.three {
+    height: 400px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 500px;
+    background-color: #32495b;
+}
