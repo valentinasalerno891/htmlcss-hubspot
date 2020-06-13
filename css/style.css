@@ -106,10 +106,23 @@ nav li {
     float: right;
 }
 
-.banner {
-    height: 400px;
+header {
+    height: 500px;
+    position: relative;
+    background-image: url('https://web.archive.org/web/20200612153517im_/https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
     background-color: #fff2ee;
+
 }
+
+/* .contained {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+} */
 
 /* HR */
 
