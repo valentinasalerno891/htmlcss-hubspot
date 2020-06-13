@@ -21,22 +21,61 @@ body {
 }
 
 .fixed-bar {
-    background-color: blue;
+    height: 80px;
+    background-color: #f4f9fd;
+    border-bottom: 1px solid black;
 }
 
-.menu-left {
+.menu {
     height: 80px;
     padding: 10px 0;
     line-height: 60px;
+    font-size: 15px;
 }
 
-i, span {
-    padding: 2px;
+i {
+    padding: 0 5px;
 }
 
-.vr {
+.lingua {
+    float: left;
+}
+
+.line {
     padding: 0 10px;
+    float: left;
 }
+
+.right {
+    float: right;
+}
+
+.right i {
+    color: #00a4bd;
+}
+
+.bt {
+    padding: 10px;
+    font-weight: bold;
+    text-transform: none;
+    border-radius: 5px;
+}
+
+.button-white {
+    margin: 0 10px;
+    color: #fe775a;
+    background-color: white;
+    border: 1px solid #fe775a;
+
+}
+
+.button-orange {
+    color: white;
+    background-color: #fe775a;
+    border: 1px solid #fe775a;
+}
+
+
 
 /* HEADER */
 .header-top {
