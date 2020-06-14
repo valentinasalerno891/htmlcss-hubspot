@@ -159,7 +159,7 @@ h1 {
 }
 
 .top-section {
-    height: 400px;
+    /* height: 400px; */
     padding: 50px;
     text-align: center;
 }
@@ -182,29 +182,81 @@ h2 {
 }
 
 .box1 {
-    height: 350px;
-    margin-top: 30px;
+    /* height: 350px; */
     background-color: white;
 }
 
 .content {
-    padding: 25px 80px;
+    height: 350px;
+    padding: 40px 80px;
+    margin-bottom: 30px;
 }
 
 .box-left {
-    width: 30%;
-
-}
-
-.logo3 img {
-    height: 100px;
-    margin: 50px;
-}
-
-.learn button {
+    width: 20%;
+    float: left;
     padding: 10px;
-    margin: 100px;
+    margin-left: 20px;
+    margin-right: 100px;
+}
 
+.box-left img {
+    height: 100px;
+    margin: 10px 20px;
+    vertical-align: middle;
+}
+
+.box-left button {
+    margin: 20px;
+}
+
+.box-right {
+    width: 80%;
+    padding: 40px;
+    margin-left: 50px;
+}
+
+.content.box-right {
+    margin-left: 20px
+}
+
+.box-right h3 {
+    font-family: 'Roboto';
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.box-right p {
+    font-size: 14px;
+    width: 120%;
+    line-height: 30px;
+}
+
+.box-right h4 {
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+h4 {
+    margin-right: 50px;
+    float: left;
+}
+
+.freehub li {
+    padding-left: 0;
+}
+
+.freehub i {
+    margin-top: 30px;
+    color: #fe775a;
+}
+
+.box {
+    width: 33.3333%;
+}
+
+.box img {
+    width: 100px;
 }
 
 .two {
