@@ -107,23 +107,30 @@ nav li {
 }
 
 header {
-    height: 500px;
-    /* position: relative; */
+    /* height: 500px; */
     background-color: #fff2ee;
+}
 
+.banner {
+    height: 500px;
+    background-image: url('https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .contained {
     width: 40%;
-    /* position: absolute;
-    top: 50%;
-    transform: translateY(-50%); */
+    position: absolute;
 }
 
+
 h1 {
-    font-weight: 800px;
+    font-family: 'Roboto', sans-serif;
+    color: #33475b;
     font-size: 40px;
-    padding: 40px 0;
+    padding-top: 30px;
+    padding-bottom: 25px;
 }
 
 .long-p {
