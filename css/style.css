@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -92,7 +92,7 @@ i {
 
 nav li {
     list-style: none;
-    padding: 0 5px;
+    padding: 0 15px;
     float: left;
 }
 
@@ -107,41 +107,42 @@ nav li {
 }
 
 header {
-    /* height: 500px; */
+    height: 600px;
     background-color: #fff2ee;
-
+    background-image: url('https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg');
+    background-size: 2000px 500px;
+    background-repeat: no-repeat;
+    background-position: -12% 176%;;
 }
 
 .banner {
-    height: 500px;
-    background-image: url('https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg');
-    background-size: 1144px 697px;
-    background-repeat: no-repeat;
-    background-position: 137% 7%;
+    height: 600px;
+    position: relative;
 }
 
 .contained {
     width: 40%;
+    position: absolute;
 }
 
-
 h1 {
+    width: 110%;
     font-family: 'Roboto', sans-serif;
     color: #33475b;
-    font-size: 40px;
-    padding-top: 30px;
+    font-size: 50px;
+    padding-top: 50px;
     padding-bottom: 25px;
 }
 
 .long-p {
     width: 110%;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 25px;
     margin-bottom: 20px;
 }
 
 .bt-grande {
-    padding: 15px 30px;
+    padding: 20px 30px;
     margin-top: 10px;
     margin-bottom: 30px;
 }
@@ -150,13 +151,60 @@ h1 {
     font-size: 11px;
 }
 
-/* HR */
-
 /* SECTIONS */
 
 .one {
-    height: 800px;
+    /* height: 800px; */
     background-color: #f4f9fd;
+}
+
+.top-section {
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+.logo2 img {
+    height: 200px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.subtitle p {
+    font-size: 15px;
+    line-height: 30px;
+    margin: 0 100px;
+    padding-bottom: 20px;
+}
+
+.box1 {
+    height: 350px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.content {
+    padding: 25px 80px;
+}
+
+.box-left {
+    width: 30%;
+
+}
+
+.logo3 img {
+    height: 100px;
+    margin: 50px;
+}
+
+.learn button {
+    padding: 10px;
+    margin: 100px;
+
 }
 
 .two {
