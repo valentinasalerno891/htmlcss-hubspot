@@ -184,10 +184,11 @@ h2 {
 .box1 {
     /* height: 350px; */
     background-color: white;
+    margin-bottom: 20px;
 }
 
 .content {
-    height: 350px;
+    /* height: 350px; */
     padding: 40px 80px;
     margin-bottom: 30px;
 }
@@ -220,43 +221,90 @@ h2 {
     margin-left: 20px
 }
 
-.box-right h3 {
+h3 {
     font-family: 'Roboto';
     font-size: 25px;
     margin-bottom: 30px;
 }
 
-.box-right p {
+p {
     font-size: 14px;
     width: 120%;
     line-height: 30px;
 }
 
-.box-right h4 {
-    margin-top: 15px;
-    text-transform: uppercase;
-}
-
 h4 {
+    text-transform: uppercase;
+    margin-top: 15px;
     margin-right: 50px;
-    float: left;
+    float: left
 }
 
 .freehub li {
     padding-left: 0;
 }
 
-.freehub i {
+i {
     margin-top: 30px;
     color: #fe775a;
 }
 
 .box {
-    width: 33.3333%;
+    width: 30%;
+    /* height: 350px; */
+    float: left;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.box-middle {
+    margin: 20px 58px;
 }
 
 .box img {
-    width: 100px;
+    width: 120px;
+    margin: 20px;
+}
+
+.box h3 {
+    font-family: 'Roboto';
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.box.box-middle h3 {
+    margin-top: 45px;
+}
+
+.box.last-box h3 {
+    margin-top: 7px;
+}
+
+.box p {
+    width: 85%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.box hr {
+    width: 280px;
+    margin: 30px auto;
+}
+
+.box h4 {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+    float: none;
+}
+
+.box i {
+    margin: 0 15px;
+}
+
+.box button {
+    margin-top: 50px;
 }
 
 .two {
