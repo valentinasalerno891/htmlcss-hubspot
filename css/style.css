@@ -109,19 +109,19 @@ nav li {
 header {
     /* height: 500px; */
     background-color: #fff2ee;
+
 }
 
 .banner {
     height: 500px;
     background-image: url('https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg');
-    background-size: contain;
+    background-size: 1144px 697px;
     background-repeat: no-repeat;
-    position: relative;
+    background-position: 137% 7%;
 }
 
 .contained {
     width: 40%;
-    position: absolute;
 }
 
 
