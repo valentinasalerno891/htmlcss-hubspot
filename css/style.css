@@ -108,21 +108,40 @@ nav li {
 
 header {
     height: 500px;
-    position: relative;
-    background-image: url('https://web.archive.org/web/20200612153517im_/https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    /* position: relative; */
     background-color: #fff2ee;
 
 }
 
-/* .contained {
-    width: 50%;
-    position: absolute;
+.contained {
+    width: 40%;
+    /* position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-} */
+    transform: translateY(-50%); */
+}
+
+h1 {
+    font-weight: 800px;
+    font-size: 40px;
+    padding: 40px 0;
+}
+
+.long-p {
+    width: 110%;
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.bt-grande {
+    padding: 15px 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.short-p {
+    font-size: 11px;
+}
 
 /* HR */
 
