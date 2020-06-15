@@ -322,12 +322,57 @@ h4 {
 
 .two {
     color: white;
-    height: 700px;
+    /* height: 700px; */
     background-color: #00acb7;
 }
 
 .two h2 {
     padding-top: 50px;
+    text-align: center;
+}
+
+.two p {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.table {
+	height: 500px;
+    text-align: center;
+}
+
+.row{
+    margin: 50px 250px;
+}
+
+.card {
+    width: 25%;
+    height: 200px;
+    background-color: #00acb7;
+    float: left;
+    border: 1px solid white;
+}
+
+.table img {
+    margin-top: 25px;
+    vertical-align: middle;
+}
+
+.card h2 {
+    font-family: 'Roboto';
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.card i {
+    text-align: left;
+    position: absolute;
+    top: 40%;
+
+    /* width: 1px;
+    height: 1px; */
 }
 
 .three {
