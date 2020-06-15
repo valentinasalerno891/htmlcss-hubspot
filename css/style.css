@@ -341,7 +341,7 @@ h4 {
     text-align: center;
 }
 
-.row{
+.row {
     margin: 50px 250px;
 }
 
@@ -370,14 +370,22 @@ h4 {
     text-align: left;
     position: absolute;
     top: 40%;
-
-    /* width: 1px;
-    height: 1px; */
 }
+
+.card h6 {
+    font-size: 12px;
+}
+
+.card8 h2 {
+    padding-top: 30px;
+}
+
 
 .three {
     height: 400px;
 }
+
+
 
 /* FOOTER */
 
