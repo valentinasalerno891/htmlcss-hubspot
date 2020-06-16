@@ -475,22 +475,85 @@ h4 {
 /* FOOTER */
 
 footer {
-    height: 600px;
-    color: white;
+    /* height: 600px; */
     background-color: #32495b;
 }
 
 .up-footer {
     padding-top: 40px;
-    height: 300px;
+    /* height: 300px; */
+    color: white;
 }
 
-nav li {
+.nav-up-footer {
+    padding-right: 100px;
+    float: left;
+}
+
+.nav-up-footer  p {
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.nav-up-footer li {
     list-style: none;
-    text-decoration: none;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
-.up-footer h5 {
+.nav-up-footer a {
+    color: #dadee0;
+    font-size: 13px;
+    text-decoration: none;
+}
 
+.bt-gray {
+    font-weight: normal;
+    margin: 20px 0;
+    color: #415767;
+    background-color: #dadee0;
+}
+
+.nav-up-footer i {
+    padding-right: 15px;
+    color: #dadee0;
+}
+
+.down-footer {
+    /* height: 200px; */
+    padding: 0px 100px;
+    border-bottom: 1px solid #dadee0;
+}
+
+.down-footer nav {
+    padding-right: 0;
+    margin: 60px 230px auto;
+}
+
+.down-footer li {
+    padding: 15px;
+    float: left;
+}
+
+.copyright {
+    color: white;
+}
+
+.copyright {
+    padding: 30px 0;
+}
+
+.copy-left {
+    padding: right: 0;
+    float: left;
+}
+
+.nav-c-p ul {
+    margin-left: 620px;
+    text-decoration: none;
+    float: right;
+}
+
+.nav-c-p li {
+    padding-right: 10px;
+    float: left;
 }
