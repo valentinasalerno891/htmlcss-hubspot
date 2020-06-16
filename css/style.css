@@ -25,7 +25,7 @@ body {
     /* height: 80px; */
     background-color: #f4f9fd;
     border-bottom: 1px solid black;
-    /* position: fixed; */
+    position: fixed;
 }
 
 .menu {
@@ -92,8 +92,9 @@ i {
     float: left;
 }
 
-nav li {
+.top-menu li {
     list-style: none;
+    text-decoration: none;
     padding: 0 15px;
     float: left;
 }
@@ -258,11 +259,14 @@ h4 {
 }
 
 .freehub li {
-    padding-left: 0;
+    padding: 0;
+    margin: 30px 20px 0px 0px;
+    list-style: none;
+    float: left;
 }
 
 .freehub i {
-    margin-top: 30px;
+    padding-right: 10px;
     color: #fe775a;
 }
 
@@ -314,6 +318,13 @@ h4 {
     margin: 10px;
     margin-bottom: 30px;
     float: none;
+}
+
+.box nav li {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    padding: 0 15px;
 }
 
 .box i {
@@ -464,6 +475,22 @@ h4 {
 /* FOOTER */
 
 footer {
-    height: 500px;
+    height: 600px;
+    color: white;
     background-color: #32495b;
+}
+
+.up-footer {
+    padding-top: 40px;
+    height: 300px;
+}
+
+nav li {
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.up-footer h5 {
+
 }
